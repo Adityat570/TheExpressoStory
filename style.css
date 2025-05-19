@@ -1,0 +1,53 @@
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff8f0;
+  color: #3e2723;
+}
+
+header .hero {
+  background: url('coffee-banner.jpeg') no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+header .hero h1 {
+  font-size: 3em;
+  margin-bottom: 0.5em;
+}
+
+header .hero p {
+  font-size: 1.2em;
+}
+
+.about, .gallery {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.about h2, .gallery h2 {
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+.gallery .images {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.gallery img {
+  max-width: 300px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #3e2723;
+  color: white;
+}
